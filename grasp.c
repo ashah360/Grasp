@@ -43,8 +43,7 @@ int main(int argc, char *argv[argc + 1]) {
       }
     } else {
       fprintf(stderr, "Unable to open file\n");
-      perror("Problem");
-      //return 0;
+      perror("Error opening file\n");
     }
     fclose(f);
     if (ferror(f)) {
@@ -56,5 +55,5 @@ int main(int argc, char *argv[argc + 1]) {
     printf("Total lines scanned: %d\n", lines);
   }
 
-  return EXIT_SUCCESS;
+  return 0;
 }
