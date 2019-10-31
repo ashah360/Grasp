@@ -21,7 +21,7 @@ int main(int argc, char *argv[argc + 1]) {
       break;
     case '?':
     default:
-      printf("default");
+        return EXIT_FAILURE;
     }
   }
 
@@ -55,5 +55,5 @@ int main(int argc, char *argv[argc + 1]) {
     printf("Total lines scanned: %d\n", lines);
   }
 
-  return 0;
+  return EXIT_SUCCESS;
 }
