@@ -47,7 +47,7 @@ int main(int argc, char *argv[argc + 1]) {
     }
     fclose(f);
     if (ferror(f)) {
-        fprintf(stderr, "Error reading file\n");
+      fprintf(stderr, "Error reading file\n");
     }
   }
 
