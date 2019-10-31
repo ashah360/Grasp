@@ -44,10 +44,6 @@ int main(int argc, char *argv[argc + 1]) {
     } else {
       fprintf(stderr, "Unable to open file\n");
     }
-    fclose(f);
-    if (ferror(f)) {
-      fprintf(stderr, "Error reading file\n");
-    }
   }
 
   if (cflag) {
