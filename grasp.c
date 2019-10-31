@@ -21,7 +21,7 @@ int main(int argc, char *argv[argc + 1]) {
       break;
     case '?':
     default:
-        return EXIT_FAILURE;
+      return EXIT_FAILURE;
     }
   }
 
