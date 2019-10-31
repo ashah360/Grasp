@@ -52,7 +52,7 @@ int main(int argc, char *argv[argc + 1]) {
     }
 
     if (cflag) {
-        printf("\nTotal lines scanned: %d\n", lines);
+        printf("Total lines scanned: %d\n", lines);
     }
 
     return EXIT_SUCCESS;
