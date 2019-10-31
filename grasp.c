@@ -24,8 +24,6 @@ int main(int argc, char *argv[argc + 1]) {
       printf("default");
     }
   }
-  // argc -= optind;
-  // argv += optind;
 
   int startIndex = (iflag || cflag) ? 3 : 2;
   int patternIndex = startIndex - 1;
@@ -45,7 +43,7 @@ int main(int argc, char *argv[argc + 1]) {
       }
     } else {
       fprintf(stderr, "Unable to open file");
-      return EXIT_FAILURE;
+      return 0;
     }
     fclose(f);
   }
