@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6803c931-343d-43b4-b5c6-dd9e852f2bda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grasp.c" beforeDir="false" afterPath="$PROJECT_DIR$/grasp.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572484945090</updated>
-      <workItem from="1572484946273" duration="11767000" />
+      <workItem from="1572484946273" duration="11792000" />
     </task>
     <servers />
   </component>
