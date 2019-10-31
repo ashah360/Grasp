@@ -43,7 +43,6 @@ int main(int argc, char *argv[argc + 1]) {
       }
     } else {
       fprintf(stderr, "Unable to open file\n");
-      perror(stderr, "Could not open the file\n");
       return 0;
     }
     fclose(f);
