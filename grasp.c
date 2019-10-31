@@ -46,7 +46,7 @@ int main(int argc, char *argv[argc + 1]) {
         }
         else {
             fprintf(stderr, "Unable to open file");
-            return EXIT_FAILURE;
+            return 0;
         }
         fclose(f);
     }
